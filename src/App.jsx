@@ -260,6 +260,15 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {[
               {
+                title: "Advanced Scientific Calculator",
+                desc: "A responsive scientific calculator with history tracking, keyboard shortcuts, and dark mode built using HTML, CSS, and JavaScript. Deployed on Vercel.",
+                tech: ["HTML5", "CSS3", "JavaScript"],
+                highlights: ["History Tracking", "Keyboard Shortcuts", "Dark Mode", "Responsive Design"],
+                status: "Live",
+                github: "https://github.com/Ishan13-dev/Advanced-calculator",
+                demo: "https://advanced-calculator-phi.vercel.app/"
+              },
+              {
                 title: "Portfolio Website",
                 desc: "Modern, responsive portfolio showcasing skills and projects",
                 tech: ["React", "Tailwind CSS", "Vite"],
@@ -331,7 +340,7 @@ function App() {
 
                   <div className="flex gap-2 sm:gap-3">
                     <a
-                      href="https://github.com/ishan13-dev"
+                      href={project.github || "https://github.com/ishan13-dev"}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`View code for ${project.title}`}
@@ -341,9 +350,11 @@ function App() {
                     </a>
                     {project.status === "Live" && (
                       <a
-                        href="#"
+                        href={project.demo || "#"}
+                        target={project.demo ? "_blank" : undefined}
+                        rel={project.demo ? "noopener noreferrer" : undefined}
                         aria-label={`View live demo for ${project.title}`}
-                        onClick={(e) => e.preventDefault()}
+                        onClick={(e) => !project.demo && e.preventDefault()}
                         className="flex-1 inline-flex items-center justify-center border-2 border-blue-500 text-blue-600 py-1.5 sm:py-2 rounded-lg font-semibold hover:bg-blue-50 transition-all text-xs sm:text-sm cursor-pointer"
                       >
                         Live Demo
