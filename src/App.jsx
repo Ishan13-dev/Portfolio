@@ -282,13 +282,6 @@ function App() {
                 highlights: ["Intent Recognition", "Context Aware", "API Integration"],
                 status: "In Progress",
               },
-              {
-                title: "Student Management System",
-                desc: "Full-featured desktop application for efficient student records management",
-                tech: ["Java", "Swing UI", "MySQL"],
-                highlights: ["CRUD Operations", "Database Optimization", "User Authentication"],
-                status: "Completed",
-              },
             ].map((project, idx) => (
               <div
                 key={idx}
