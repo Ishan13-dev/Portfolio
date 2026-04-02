@@ -266,7 +266,7 @@ function App() {
                 highlights: ["History Tracking", "Keyboard Shortcuts", "Dark Mode", "Responsive Design"],
                 status: "Live",
                 github: "https://github.com/Ishan13-dev/Advanced-calculator",
-                demo: "https://advanced-calculator-phi.vercel.app/"
+                demo: "https://advanced-calculator-six-gilt.vercel.app/",
               },
               {
                 title: "Portfolio Website",
