@@ -1,16 +1,77 @@
-# React + Vite
+# 💻 Ishan Verma | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Personal portfolio website showcasing my projects, technical skills, experience, and journey as a Computer Science Engineering student.
 
-Currently, two official plugins are available:
+🌐 **Live Portfolio:** https://iv-portfolio-sandy.vercel.app/  
+📦 **GitHub Repository:** https://github.com/Ishan13-dev/Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👨‍💻 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is my personal developer portfolio, built to showcase my work, technical skills, projects, and experience.
 
-## Expanding the ESLint configuration
+I am a Computer Science Engineering student interested in building practical software, exploring Artificial Intelligence and Machine Learning, and developing full-stack applications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The portfolio serves as my online developer profile and is continuously updated as I learn and build new projects.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and clean portfolio interface
+- 📱 Responsive design
+- 🚀 Fast Vite-powered development
+- 🧩 Component-based React architecture
+- 💼 Project showcase
+- 🛠️ Technical skills section
+- 👨‍💻 Developer profile
+- 🔗 Social and professional links
+- 🌐 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### Build Tools
+
+- Vite
+- npm
+- ESLint
+
+### Version Control & Deployment
+
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```text
+Portfolio/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
